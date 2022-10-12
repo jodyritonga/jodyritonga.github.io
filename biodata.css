@@ -1,0 +1,98 @@
+body {
+    background-color: #000000;
+    font-family: 'Familjen Grotesk', sans-serif;
+    color: rgb(250, 250, 250);
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.head {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    float: left;
+
+}
+
+.Logo {
+    position: relative;
+    top: 25px;
+    right: -50px;
+    width: 210px;
+    height: auto;
+}
+
+.Logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Menu{
+    position: relative;
+    top: -10px;
+    right: -315px;
+    font-size: 95%;
+}
+
+.shop{
+    float: right;
+    position: relative;
+    top: -40px;
+    left: -70px;
+    font-size: 95%;
+}
+
+.hamburger {
+width: 25px;
+height: 2px;
+background-color: #ffffff;
+margin: 4px 0;
+position: relative;
+left: 1300px;
+top: -2px;
+}
+
+img {
+    width: 30%;    
+}
+
+.isi {
+    float: right;
+    position: relative;
+    right: 550px;
+}
+
+footer{
+    color: #ffffff6b;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    right: -290px;
+    margin: auto;
+}
+
+.Down{
+    position: relative;
+    top: -47px;
+    right: -110px;
+    font-size: 85%;
+}
+.down:hover{
+    color: #ffffffaf;
+}
