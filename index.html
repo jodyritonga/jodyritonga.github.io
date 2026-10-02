@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Victim Bank</title></head>
+<body style="margin:0;font:16px system-ui"><div style="background:#ffd400;color:#000;padding:10px;font:14px system-ui;font-weight:700;text-align:center">SECURITY RESEARCH PROOF-OF-CONCEPT &mdash; &ldquo;Victim Bank&rdquo; is fictional. Do NOT enter real credentials. Reported to The Browser Company.</div>
+<div style="background:#0b3d2c;color:#fff;padding:16px;font-weight:700;font-size:20px">Victim Bank</div>
+<div style="padding:16px">
+  <p><b>This page is the VICTIM origin.</b></p>
+  <p style="font-size:14px;color:#444">
+    Top-level document: <code id="top"></code><br>
+    The bordered box below is third-party content served by a <b>different</b> origin
+    (<code>https://lowleveljody.github.io</code>), embedded in an iframe &mdash; e.g. an ad slot or widget.
+  </p>
+</div>
+<iframe src="https://lowleveljody.github.io/frame.html"
+        style="width:100%;height:1400px;border:2px solid #c00"></iframe>
+<script>document.getElementById('top').textContent = location.origin;</script>
+</body></html>
